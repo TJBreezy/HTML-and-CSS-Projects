@@ -1,0 +1,87 @@
+.menu {
+    height: 50px;
+    border: medium;
+    width: 50px;
+    background-color: white;
+    opacity: 0.2;
+    -webkit-transition: all 0.1s ease-in-out 0.1s;
+    -o-transition: all 0.1s ease-in-out 0.1s;
+    border-radius: 50%;
+    transition: all 0.1s ease-in-out 0.1s;
+
+}
+body p {
+    text-align: center;
+    font-family: Arial;
+    color: white;
+}
+.title strong {
+    font-size: 50px;
+    color: lightblue;
+}
+.hook {
+    color: darkblue;
+
+}
+.sign-up  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-up button {
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: lightblue;
+}
+.form .main input {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: darkyellow;
+    -webkit-box-shadow: inset 3px 3px 3px rgba(0,0,0,0.3);
+    box-shadow: inset 3px 3px 3px rgba(0,0,0,0.3);
+}
+.form .main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form .main .a {
+}
+.form .main button {
+    width: 100px;
+}
+.sign-up button {
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.2s ease 0.1s;
+    -o-transition: all 0.2s ease 0.1s;
+    transition: all 0.2s ease 0.1s;
+}
+.sign-up button:hover {
+    color: white;
+    background-color: #89D3B8;
+}
+.menu img {
+    width: 25px;
+
+
+
+}
+
+
+@media (max-width:1280px){
+}
+
+@media (min-width:300px){
+}
+.menu:hover {
+    -webkit-opacity: 1;
+    opacity: 1;
+}

@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body {
+    background: rgb(86, 203, 249);
+    font-family: Arial;
+}
+
+main {
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: none;
+    border-left-style: ridge;
+    border-left-color: rgba(192, 192, 192, 0.4);
+    max-width: 900px;
+}
+
+.comment_box,
+.comment_box_1,
+.comment_box_2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.comment_box .commenter,
+.comment_box_1 .commenter,
+.comment_box_2 .commenter {
+    display: flex;
+    flex-direction: row;
+    border-color: rgb(192, 192, 192);
+    border-bottom-width: medium;
+    border-bottom-style: ridge;
+}
+
+.photo {
+    width: 10%;
+}
+
+.commenter .photo img {
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: -20px;
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    font-size: 10px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+.interaction {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.time {
+    color: rgb(192, 192, 192);
+}
+
+.like {
+    width: 15px;
+    height: 15px;
+}
+
+.comment_box.1 {
+    margin-left: 100px;
+}
+
+.comment_box {}
+
+.comment_box_1 {
+    margin-left: 15%;
+}
+
+.comment_box_2 {
+    margin-left: 29%;
+}
+
+main a {
+    -webkit-transition: color 0.1s ease-in 0.1s, font-size 0.1s ease-in 0.1s;
+    -o-transition: color 0.1s ease-in 0.1s, font-size 0.1s ease-in 0.1s;
+    transition: color 0.1s ease-in 0.1s, font-size 0.1s ease-in 0.1s;
+}
+
+main a:hover {
+    color: #56cbf9;
+    font-size: 12px;
+}
+.copyright {
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    font-size: 13px;
+}
+
+
+@media (max-width: 1280px) {}
+
+@media (min-width: 300px) {}
